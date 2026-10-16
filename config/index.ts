@@ -13,13 +13,11 @@ export const siteConfig: Metadata = {
   ],
   creator: "Muhammad Asim",
   publisher: "Muhammad Asim",
-  metadataBase: new URL("https://asim-web-agency.netlify.app"),
   openGraph: {
     title: "Muhammad Asim | AI Developer",
     description:
       "Explore Muhammad Asim's projects in web development, automation, and AI-focused product building.",
     type: "website",
-    url: "https://github.com/MuhammadAsimdeveloper/My-Portfolio",
   },
   keywords: [
     "Muhammad Asim",
