@@ -28,7 +28,6 @@ export const Footer = () => {
             </div>
           ))}
         </div>
-
         <div className="w-full border-t border-white/10 pt-6 text-sm text-gray-400 text-center">
           © {new Date().getFullYear()} Muhammad Asim · Built with curiosity and consistency.
         </div>
