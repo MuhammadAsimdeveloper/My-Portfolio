@@ -4,12 +4,12 @@ import SiteNav from '@/components/site-nav';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Muhammad Asim | AI Developer & Builder',
-  description: 'Muhammad Asim is a BS Artificial Intelligence student at IUB, building web products, developer tools, and practical AI projects.',
+  title: 'Muhammad Asim | AI Developer & Product Builder',
+  description: 'Muhammad Asim is a BS Artificial Intelligence student at IUB building practical software, web products, developer tools, and automation projects.',
   metadataBase: new URL('https://asim-web-agency.netlify.app'),
-  openGraph: { title: 'Muhammad Asim | AI Developer & Builder', description: 'Web products, developer tools, and practical AI experiments.', type: 'website' }
+  openGraph: { title: 'Muhammad Asim | AI Developer & Product Builder', description: 'AI, web products, developer tools, and practical experiments.', type: 'website' }
 };
-export const viewport: Viewport = { themeColor: '#f4f2ec', width: 'device-width', initialScale: 1 };
+export const viewport: Viewport = { themeColor: '#08090d', width: 'device-width', initialScale: 1 };
 export default function RootLayout({ children }: { children: ReactNode }) {
   return <html lang="en"><body><SiteNav />{children}</body></html>;
 }
