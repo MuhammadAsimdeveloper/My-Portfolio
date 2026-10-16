@@ -9,19 +9,10 @@ export const Encryption = () => {
   return (
     <section className="flex flex-col relative items-center justify-center min-h-[520px] w-full px-6 py-16">
       <div className="absolute inset-0 z-0 flex items-center justify-center overflow-hidden opacity-35">
-        <video
-          loop
-          muted
-          autoPlay
-          playsInline
-          preload="none"
-          className="w-full h-full object-cover"
-          aria-hidden="true"
-        >
+        <video loop muted autoPlay playsInline preload="none" className="w-full h-full object-cover" aria-hidden="true">
           <source src="/videos/encryption-bg.webm" type="video/webm" />
         </video>
       </div>
-
       <motion.div
         variants={slideInFromTop}
         className="relative z-10 flex flex-col items-center text-center max-w-3xl"
@@ -32,7 +23,6 @@ export const Encryption = () => {
         <p className="mt-5 text-gray-300 text-base md:text-lg leading-8">
           I want the software I build to be useful, understandable, and dependable. My approach is to start with a real problem, build a focused solution, test the details, and keep improving it.
         </p>
-
         <div className="mt-8 flex items-center gap-4 rounded-2xl border border-purple-400/30 bg-[#030014]/75 px-5 py-4 shadow-lg shadow-purple-950/30">
           <Image
             src="/lock-main.png"
