@@ -25,6 +25,14 @@ export default function Home() {
       </div>
       <div className="hero-visual" aria-label="Abstract technology illustration">
         <div className="visual-grid"/>
+        <div className="hero-objects" aria-hidden="true">
+          <span className="object-cube object-cube-lime"><i/><i/><i/></span>
+          <span className="object-sphere object-sphere-violet"/>
+          <span className="object-cube object-cube-glass"><i/><i/><i/></span>
+          <span className="object-ring object-ring-cyan"/>
+          <span className="object-chip"><b>AI</b><i/><i/><i/><i/></span>
+          <span className="object-sphere object-sphere-cyan"/>
+        </div>
         <div className="visual-orbit orbit-one"/><div className="visual-orbit orbit-two"/>
         <div className="core-orb"><div className="orb-inner"/><span>ASIM<span className="orb-dot">.</span></span></div>
         <div className="float-card float-card-top"><span className="mini-icon lime-icon">✳</span><div><b>AI / AUTOMATION</b><small>Building smarter workflows</small></div><span className="card-arrow">↗</span></div>
