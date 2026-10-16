@@ -4,35 +4,35 @@ import { FOOTER_DATA } from "@/constants";
 
 export const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]">
-      <div className="w-full flex flex-col items-center justify-center m-auto">
-        <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
+    <footer id="contact" className="w-full bg-transparent text-gray-200 shadow-lg px-6 py-10">
+      <div className="max-w-6xl flex flex-col items-center justify-center m-auto gap-8">
+        <div className="w-full flex flex-row items-start justify-center md:justify-between gap-10 flex-wrap">
           {FOOTER_DATA.map((column) => (
             <div
               key={column.title}
-              className="min-w-[200px] h-auto flex flex-col items-center justify-start"
+              className="min-w-[200px] h-auto flex flex-col items-center md:items-start justify-start"
             >
-              <h3 className="font-bold text-[16px]">{column.title}</h3>
+              <h3 className="font-bold text-base mb-1">{column.title}</h3>
               {column.data.map(({ icon: Icon, name, link }) => (
                 <Link
                   key={`${column.title}-${name}`}
                   href={link}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="flex flex-row items-center my-[15px]"
+                  target={link.startsWith("mailto:") ? undefined : "_blank"}
+                  rel={link.startsWith("mailto:") ? undefined : "noreferrer noopener"}
+                  className="flex flex-row items-center my-2 hover:text-cyan-300 transition"
                 >
-                  {Icon && <Icon />}
-                  <span className="text-[15px] ml-[6px]">{name}</span>
+                  {Icon && <Icon className="h-4 w-4" />}
+                  <span className="text-sm ml-2">{name}</span>
                 </Link>
               ))}
             </div>
           ))}
         </div>
 
-        <div className="mb-[20px] text-[15px] text-center">
-          &copy; John Doe {new Date().getFullYear()} Inc. All rights reserved.
+        <div className="w-full border-t border-white/10 pt-6 text-sm text-gray-400 text-center">
+          © {new Date().getFullYear()} Muhammad Asim · Built with curiosity and consistency.
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
