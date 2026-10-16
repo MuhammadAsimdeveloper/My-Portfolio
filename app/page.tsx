@@ -44,7 +44,7 @@ export default function Home() {
         <div className="core-orb"><div className="orb-inner"/><span>ASIM<span className="orb-dot">.</span></span></div>
         <div className="float-card float-card-top"><span className="mini-icon lime-icon">✳</span><div><b>AI / AUTOMATION</b><small>Building smarter workflows</small></div><span className="card-arrow">↗</span></div>
         <div className="float-card float-card-bottom"><span className="mini-icon violet-icon">{'{ }'}</span><div><b>PRODUCT ENGINEERING</b><small>Learn · Build · Iterate</small></div><span className="live-dot"/></div>
-        <div className="scene-readout readout-top"><span>FIG 01 / ASIM LABS</span><b>CREATIVE SYSTEMS</b></div>
+        <div className="scene-readout readout-top"><b>CREATIVE SYSTEMS</b></div>
         <div className="scene-readout readout-bottom"><span className="readout-dot" /> REAL IDEAS. REAL BUILDS. <span>PK · 2026</span></div>
         <span className="visual-cross cross-a">+</span><span className="visual-cross cross-b">+</span>
       </div>
