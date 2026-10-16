@@ -22,6 +22,20 @@ export default function HeroSceneMotion() {
       scene.style.setProperty("--scene-orb-y", `${(nextY * -4).toFixed(2)}px`);
       scene.style.setProperty("--scene-halo-x", `${(nextX * 7).toFixed(2)}px`);
       scene.style.setProperty("--scene-halo-y", `${(nextY * 6).toFixed(2)}px`);
+      scene.style.setProperty("--scene-halo-inverse-x", `${(nextX * -3.85).toFixed(2)}px`);
+      scene.style.setProperty("--scene-halo-inverse-y", `${(nextY * -3.3).toFixed(2)}px`);
+      scene.style.setProperty("--scene-grid-x", `${(nextX * -3).toFixed(2)}px`);
+      scene.style.setProperty("--scene-grid-y", `${(nextY * -2.5).toFixed(2)}px`);
+      scene.style.setProperty("--scene-cube-x", `${(nextX * 9.6).toFixed(2)}px`);
+      scene.style.setProperty("--scene-cube-y", `${(nextY * 8).toFixed(2)}px`);
+      scene.style.setProperty("--scene-chip-x", `${(nextX * -6.6).toFixed(2)}px`);
+      scene.style.setProperty("--scene-chip-y", `${(nextY * 5.5).toFixed(2)}px`);
+      scene.style.setProperty("--scene-ring-x", `${(nextX * 7.8).toFixed(2)}px`);
+      scene.style.setProperty("--scene-ring-y", `${(nextY * -6.5).toFixed(2)}px`);
+      scene.style.setProperty("--scene-card-top-x", `${(nextX * 4.2).toFixed(2)}px`);
+      scene.style.setProperty("--scene-card-top-y", `${(nextY * -4.5).toFixed(2)}px`);
+      scene.style.setProperty("--scene-card-bottom-x", `${(nextX * -4.8).toFixed(2)}px`);
+      scene.style.setProperty("--scene-card-bottom-y", `${(nextY * 3.5).toFixed(2)}px`);
       frame = 0;
     };
 
@@ -50,6 +64,20 @@ export default function HeroSceneMotion() {
       scene.style.removeProperty("--scene-orb-y");
       scene.style.removeProperty("--scene-halo-x");
       scene.style.removeProperty("--scene-halo-y");
+      scene.style.removeProperty("--scene-halo-inverse-x");
+      scene.style.removeProperty("--scene-halo-inverse-y");
+      scene.style.removeProperty("--scene-grid-x");
+      scene.style.removeProperty("--scene-grid-y");
+      scene.style.removeProperty("--scene-cube-x");
+      scene.style.removeProperty("--scene-cube-y");
+      scene.style.removeProperty("--scene-chip-x");
+      scene.style.removeProperty("--scene-chip-y");
+      scene.style.removeProperty("--scene-ring-x");
+      scene.style.removeProperty("--scene-ring-y");
+      scene.style.removeProperty("--scene-card-top-x");
+      scene.style.removeProperty("--scene-card-top-y");
+      scene.style.removeProperty("--scene-card-bottom-x");
+      scene.style.removeProperty("--scene-card-bottom-y");
     };
   }, []);
 
