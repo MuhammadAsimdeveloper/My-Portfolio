@@ -29,21 +29,18 @@ export const PROJECTS = [
     title: "Muhammad Asim Web Agency",
     description:
       "A live agency website built to present web design and development work for small businesses. The site is live and continues to evolve.",
-    image: "/projects/project-1.png",
     link: "https://asim-web-agency.netlify.app",
   },
   {
     title: "Atlas Outreach Automation",
     description:
       "An in-progress outreach workflow with lead review, CSV import/export, and email outreach support. This is a development project, not a claimed launched SaaS.",
-    image: "/projects/project-2.png",
     link: "https://github.com/MuhammadAsimdeveloper/Atlas-outreach-automation-",
   },
   {
     title: "Coding Vibes",
     description:
       "An in-progress AI-assisted coding and website-building project focused on helping turn ideas into working web experiences.",
-    image: "/projects/project-3.png",
     link: "https://github.com/MuhammadAsimdeveloper/CodingVibes",
   },
 ] as const;
