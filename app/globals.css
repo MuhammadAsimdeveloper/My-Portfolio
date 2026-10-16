@@ -385,3 +385,26 @@ body {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* Light layout polish for the actual portfolio section structure */
+.about-layout { color: #25283a; }
+.about-copy, .about-lead, .section-heading-row, .section-label { color: #555b70; }
+.about-copy .about-lead { color: #34394d; }
+.principles { border-color: #e1e4ee; }
+.skill-row { border-color: #e1e4ee; }
+.skill-index { color: #8a8fa1; }
+.skill-chips { color: #25283a; }
+.section-heading-row { border-bottom-color: #e1e4ee; }
+.muted-heading { color: #777d90; }
+.project-info { color: #25283a; }
+.project-topline, .project-tags { color: #73798d; }
+.project-preview { overflow: hidden; border-radius: 16px; background: linear-gradient(145deg,#f0f2f9,#ffffff); border-color: #e1e4ee; }
+.preview-header, .preview-footer { color: #646a7e; border-color: #e1e4ee; }
+.preview-graphic { background: radial-gradient(ellipse at 50% 45%,rgba(117,99,232,.12),transparent 58%),linear-gradient(145deg,#f6f7fc,#edf0f8); }
+.project-action { color: #6553d6; }
+.contact-section { background: transparent; }
+.contact-layout { background: #fff; border: 1px solid #e1e4ee; border-radius: 26px; padding: clamp(24px,4vw,54px); box-shadow: 0 22px 65px rgba(45,51,83,.07); }
+.contact-copy { color: #25283a; }
+.footer { border-top: 1px solid #e1e4ee; color: #73798d; }
+.footer-brand { color: #24283a; }
+.footer-copy { color: #73798d; }
