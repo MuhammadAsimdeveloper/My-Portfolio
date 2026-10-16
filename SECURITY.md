@@ -2,12 +2,10 @@
 
 ## Supported Versions
 
-This project is maintained on the default branch. Please use the latest commit when reporting issues.
+The latest version on the default `main` branch is the supported version.
 
 ## Reporting a Vulnerability
 
-Report security vulnerabilities privately to <sanidhyyy@gmail.com>.
-Please do not open a public GitHub issue for security reports.
+Please report security vulnerabilities privately to [sanjarkhanabbasi786@gmail.com](mailto:sanjarkhanabbasi786@gmail.com). Do not disclose sensitive details in a public issue.
 
-Reports will be reviewed as soon as possible. If a report is accepted, we will work on a fix.
-If it is declined, we will explain why.
+Include the affected area, steps to reproduce the issue, and any relevant logs with secrets removed. Reports will be reviewed and follow-up will be provided as appropriate.
