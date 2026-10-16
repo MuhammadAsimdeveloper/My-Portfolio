@@ -9,7 +9,6 @@ export const Skills = () => {
       className="flex flex-col items-center justify-center gap-6 relative overflow-hidden py-20"
     >
       <SkillText />
-
       <div className="relative z-10 flex flex-row justify-center flex-wrap gap-6 md:gap-10 items-center px-6 max-w-5xl">
         {SKILL_DATA.map((skill, index) => (
           <div key={skill.skill_name} className="flex flex-col items-center gap-3 min-w-[88px]">
@@ -24,17 +23,9 @@ export const Skills = () => {
           </div>
         ))}
       </div>
-
       <div className="w-full h-full absolute inset-0 pointer-events-none opacity-20">
         <div className="w-full h-full z-[-10] absolute flex items-center justify-center bg-cover">
-          <video
-            className="w-full h-auto"
-            preload="none"
-            playsInline
-            loop
-            muted
-            autoPlay
-          >
+          <video className="w-full h-auto" preload="none" playsInline loop muted autoPlay aria-hidden="true">
             <source src="/videos/skills-bg.webm" type="video/webm" />
           </video>
         </div>
