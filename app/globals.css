@@ -55,6 +55,6 @@ main{position:relative;z-index:1}
 .particle-glow{position:absolute;width:min(42vw,560px);aspect-ratio:1;border-radius:50%;filter:blur(95px);opacity:.075}
 .particle-glow-left{left:-18%;top:22%;background:#74e5e0}
 .particle-glow-right{right:-17%;top:4%;background:#9b8cff}
-@keyframes particle-drift{0%{transform:translate3d(0,0,var(--depth)) scale(.72);opacity:calc(var(--particle-opacity)*.58)}45%{opacity:var(--particle-opacity)}100%{transform:translate3d(var(--drift-x),var(--drift-y),calc(var(--depth) + 55px)) scale(1.2);opacity:calc(var(--particle-opacity)*.72)}}
+@keyframes particle-drift{0%{transform:translate3d(0,0,var(--depth)) scale(.72);opacity:.12}45%{opacity:var(--particle-opacity)}100%{transform:translate3d(var(--drift-x),var(--drift-y),calc(var(--depth) + 55px)) scale(1.2);opacity:.3}}
 @media(max-width:800px){.particle{box-shadow:0 0 5px color-mix(in srgb,var(--particle-color) 65%,transparent)}.particle-glow{filter:blur(75px);opacity:.055}.particle-space{perspective:650px}}
 @media(prefers-reduced-motion:reduce){.particle{animation:none;will-change:auto}.particle-glow{opacity:.04}}
