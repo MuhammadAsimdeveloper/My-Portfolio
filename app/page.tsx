@@ -1,3 +1,5 @@
+import HeroSceneMotion from "@/components/hero-scene-motion";
+
 const skillGroups = [
   { label: 'LANGUAGES', items: [{name:'Python',icon:'python'},{name:'JavaScript',icon:'javascript'},{name:'TypeScript',icon:'typescript'},{name:'C / C++',icon:'cplusplus'}] },
   { label: 'WEB STACK', items: [{name:'HTML & CSS',icon:'html5'},{name:'React',icon:'react'},{name:'Next.js',icon:'nextjs'},{name:'Tailwind CSS',icon:'tailwindcss'},{name:'Git & GitHub',icon:'github'}] },
@@ -15,6 +17,7 @@ const email = 'sanjarkhanabbasi786@gmail.com';
 export default function Home() {
   return <main id="top">
     <section className="hero page-wrap">
+      <HeroSceneMotion />
       <div className="hero-stage-glow" aria-hidden="true" />
       <div className="hero-copy">
         <div className="status-line"><span className="status-pulse" /> AVAILABLE FOR LEARNING & COLLABORATION <span className="mono">// PK</span></div>
