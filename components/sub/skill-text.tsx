@@ -21,14 +21,12 @@ export const SkillText = () => {
           Learning, building, and improving
         </h1>
       </motion.div>
-
       <motion.div
         variants={slideInFromLeft(0.5)}
         className="text-3xl md:text-4xl text-white font-semibold mt-5 text-center mb-4"
       >
         Technologies I use and explore
       </motion.div>
-
       <motion.p
         variants={slideInFromRight(0.5)}
         className="max-w-3xl text-base md:text-lg text-gray-300 leading-8 mb-6"
