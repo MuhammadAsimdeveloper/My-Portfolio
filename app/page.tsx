@@ -15,6 +15,7 @@ const email = 'sanjarkhanabbasi786@gmail.com';
 export default function Home() {
   return <main id="top">
     <section className="hero page-wrap">
+      <div className="hero-stage-glow" aria-hidden="true" />
       <div className="hero-copy">
         <div className="status-line"><span className="status-pulse" /> AVAILABLE FOR LEARNING & COLLABORATION <span className="mono">// PK</span></div>
         <p className="hero-kicker">AI DEVELOPER <span>×</span> PRODUCT BUILDER</p>
@@ -23,8 +24,11 @@ export default function Home() {
         <div className="hero-actions"><a className="button button-primary" href="#projects">Explore my work <span>↘</span></a><a className="button button-ghost" href="#contact">Let’s connect <span>↗</span></a></div>
         <div className="hero-meta"><span><i/> BASED IN PAKISTAN</span><span>BS ARTIFICIAL INTELLIGENCE · IUB</span></div>
       </div>
-      <div className="hero-visual" aria-label="Abstract technology illustration">
+      <div className="hero-visual" aria-label="A floating 3D technology scene">
+        <div className="scene-halo scene-halo-one" />
+        <div className="scene-halo scene-halo-two" />
         <div className="visual-grid"/>
+        <div className="scene-floor" />
         <div className="hero-objects" aria-hidden="true">
           <span className="object-cube object-cube-lime"><i/><i/><i/></span>
           <span className="object-sphere object-sphere-violet"/>
@@ -32,12 +36,16 @@ export default function Home() {
           <span className="object-ring object-ring-cyan"/>
           <span className="object-chip"><b>AI</b><i/><i/><i/><i/></span>
           <span className="object-sphere object-sphere-cyan"/>
+          <span className="object-orb object-orb-lime" />
+          <span className="object-orb object-orb-purple" />
+          <span className="object-diamond" />
         </div>
         <div className="visual-orbit orbit-one"/><div className="visual-orbit orbit-two"/>
         <div className="core-orb"><div className="orb-inner"/><span>ASIM<span className="orb-dot">.</span></span></div>
         <div className="float-card float-card-top"><span className="mini-icon lime-icon">✳</span><div><b>AI / AUTOMATION</b><small>Building smarter workflows</small></div><span className="card-arrow">↗</span></div>
         <div className="float-card float-card-bottom"><span className="mini-icon violet-icon">{'{ }'}</span><div><b>PRODUCT ENGINEERING</b><small>Learn · Build · Iterate</small></div><span className="live-dot"/></div>
-        
+        <div className="scene-readout readout-top"><span>FIG 01 / ASIM LABS</span><b>CREATIVE SYSTEMS</b></div>
+        <div className="scene-readout readout-bottom"><span className="readout-dot" /> REAL IDEAS. REAL BUILDS. <span>PK · 2026</span></div>
         <span className="visual-cross cross-a">+</span><span className="visual-cross cross-b">+</span>
       </div>
       <div className="hero-scroll"><span className="scroll-line"/> SCROLL TO EXPLORE <span className="scroll-arrow">↓</span></div>
