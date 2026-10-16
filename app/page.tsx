@@ -74,13 +74,13 @@ export default function Home() {
       <section id="skills" className="section toolkit-section"><div className="page-wrap">
         <div className="section-kicker"><span>02</span><span className="kicker-rule" /><span>TOOLS I’M GROWING WITH</span></div>
         <div className="toolkit-heading"><div><p className="micro-label">CURRENT TOOLKIT</p><h2>Learn the tools.<br /><span>Understand the system.</span></h2></div><p>My stack keeps evolving. These are the technologies and approaches I currently use, practise, or actively explore.</p></div>
-        <div className="skill-grid">{skills.map((group) => <article className="skill-card" key={group.group}><span className="skill-group">{group.group}</span><div className="skill-items">{group.items.map((item) => <span key={item} className="skill-pill"><i />{item}</span>)}</div><span className="skill-card-mark" aria-hidden="true">↗</span></article>)}</div>
+        <div className="skill-grid" aria-label="Current skills and technologies">{skills.map((group) => <article className="skill-card" key={group.group}><span className="skill-group">{group.group}</span><div className="skill-items">{group.items.map((item) => <span key={item} className="skill-pill"><i />{item}</span>)}</div><span className="skill-card-mark" aria-hidden="true">↗</span></article>)}</div>
       </div></section>
 
       <section id="projects" className="section page-wrap projects-section">
         <div className="section-kicker"><span>03</span><span className="kicker-rule" /><span>SELECTED WORK / CONTINUOUS PROGRESS</span></div>
         <div className="projects-heading"><div><p className="micro-label">THE WORKBENCH</p><h2>Ideas in progress.<br /><span>Proof in the making.</span></h2></div><p>One live website and several projects in development. Status is shown honestly — shipped is shipped, and work in progress stays labelled.</p></div>
-        <div className="project-grid">{projects.map((project) => <article className={`project-card ${project.className} ${project.featured ? "project-featured" : ""}`} key={project.number}>
+        <div className="project-grid" aria-label="Selected projects">{projects.map((project) => <article className={`project-card ${project.className} ${project.featured ? "project-featured" : ""}`} key={project.number}>
           <a className="project-art" href={project.href} target="_blank" rel="noreferrer" aria-label={`${project.action}: ${project.title}`}>
             <div className="art-grid" /><div className="art-topline"><span>ASIM LAB / {project.number}</span><span className="art-open"><Arrow /></span></div>
             <div className="art-object"><span>{project.symbol}</span><i /><b /></div>
