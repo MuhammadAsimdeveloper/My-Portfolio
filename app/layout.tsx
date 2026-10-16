@@ -6,7 +6,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Muhammad Asim | AI Developer & Product Builder',
-  description: 'Muhammad Asim is a BS Artificial Intelligence student at IUB building practical software, web products, developer tools, and automation projects.',
+  description: 'Explore Muhammad Asim’s animated light-tech portfolio: AI learning, web products, developer tools, and practical automation projects built at IUB in Pakistan.',
   metadataBase: new URL('https://muhammad-asim-ai.netlify.app'),
   openGraph: {
     title: 'Muhammad Asim | AI Developer & Product Builder',
